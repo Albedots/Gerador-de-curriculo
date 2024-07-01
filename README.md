@@ -9,6 +9,9 @@
 # Resumo
 <p>Projeto criado com conhecimento inicial/básico de cada linguagem, para Atividade de Prática Orientada da UNIPAR "Universidade Paranaense"</p>
 
+# Protótipo do projeto no Figma
+![Protótipo](APO-FIGMA.pdf)
+
 
 # Guia do Usuário
 ## Etapa 1:  
