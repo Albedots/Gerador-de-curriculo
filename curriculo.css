@@ -1,0 +1,35 @@
+*{
+    margin: 0;                                          
+    padding: 0;                         /* aqui eu formatei alguns pontos gerais do arquivo php*/
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    margin: 8%;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid;
+}
+
+h1{
+    background-color: grey;
+
+}
+
+hr{
+    border: 2px solid;
+}
+
+.fonte-maior{
+    font-size: larger;
+}
+
+body{
+    background-color: #696969;
+}
+
+button{
+    float: right;
+    width: 100px;
+}

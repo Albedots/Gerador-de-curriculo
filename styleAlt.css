@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e2124;
+}
+
+
+legend{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ccc;
+}
+
+label{
+    color: white;
+}
+
+
+form{
+    background-color:#36393e;
+    margin: 150px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+fieldset{
+    text-align: center;
+    border: none;
+}
+
+
+input[type=radio]{
+    display: inline;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    width: 300px;
+    color: #969a92;
+    margin-top: 30px;
+}
+
+
+input, textarea, select {
+    display: block;
+    background-color: rgba(227, 227, 227, 0.1);
+    padding: 10px;
+    border: 1px solid rgba(204, 204, 204, 0.8);
+    border-radius: 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    font-size: 16px;
+    color: grey;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+input{
+    width: 300px;
+    margin-left: 40%;
+}
+
+textarea{
+    margin-left: 34%;
+}
+
+select{
+    margin-left: 45%;
+}
+
+
+input[type=text]:focus,
+input[type=email]:focus, 
+input[type=tel]:focus, 
+input[type=number]:focus, 
+textarea:focus, select:focus {
+  border-color: #0078d4; /* Cor do foco */
+  outline: none; /* Remove o contorno padrão do foco */
+}
+
+button:hover{
+    background-color: rgba(187, 165, 165, 0.1);
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: #36393e;
+}
+
