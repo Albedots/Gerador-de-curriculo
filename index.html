@@ -6,16 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APO</title>
-    <link rel="stylesheet" href="styleAlt.css">
+    <link rel="stylesheet" href="style/styleAlt.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> <!--linkei por cdn o jquery-->
-    <script src="apo.js"></script>
+    <script src="scripts/apo.js"></script>
 </head>
 
 <body>
-    <noscript>Parece que os scripts estão desativados, isso pode ocorrer no mau funcionamento da página</noscript>
+    <noscript>Parece que os scripts estão desativados, isso pode ocorrer no mau funcionamento da página</noscript>  <!--tag para mostrar uma mensagem de erro caso script não sejam aceitos pelo browser-->
 
     <form action="curriculo.php" method="post" name="formulario" autocomplete="on" enctype="application/x-www-form-urlencoded">
-        <!--Eu sei que enctype do método post vem o "application/x-www-form-urlencoded" por padrão, porém eu optei por escreve-lo para contestualização-->
+        <!--Eu sei que enctype do método post vem o "application/x-www-form-urlencoded" por padrão, porém eu optei por escreve-lo para contextualização-->
         <fieldset>
             <legend>CURRÍCULO</legend>
 
@@ -33,7 +33,7 @@
                 <select name="estadoCivil" id="estadoCivil" required>
                     <option value="" disabled selected>Estado Civil:</option>
                     <option value="Solteiro">Solteiro</option>
-                    <option value="Casado">Casado</option>
+                    <option value="Casado">Casado</option>                  <!--Campo para selecionar o estado civil-->
                     <option value="Separado">Separado</option>
                     <option value="Viuvo">Viúvo</option>
                     <option value="Divorciado">Divorciado</option>

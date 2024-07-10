@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tag para responsividade do site-->
     <title>Currículo</title>
-    <link rel="stylesheet" href="curriculo.css">
+    <link rel="stylesheet" href="style/curriculo.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="apo.js"></script>
+    <script src="scripts/apo.js"></script>
 </head>
 
 <body>
@@ -41,7 +41,7 @@
         <h1>Dados Pessoais:</h1>
         <hr>
 
-        <button id="btVoltar">Voltar</button><button id="btImpressao">Imprimir</button>
+        <button id="btVoltar">Voltar</button><button id="btImpressao">Imprimir</button>     <!--botões do site-->
 
         <h2>
             <p>Nome: <?php echo $nome ?></p>

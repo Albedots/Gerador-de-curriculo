@@ -1,10 +1,13 @@
 # Gerador-de-curriculo
 
 <h2>Linguagens usadas :</h2>
-.Jquery <br>
-.Css  <br>
-.Html  <br>
-.Php  <br>
+<pre>
+.Jquery
+.Css 
+.Html 
+.Php
+</pre>
+
 
 # Resumo
 <p>Projeto criado com conhecimento inicial/básico de cada linguagem, para Atividade de Prática Orientada da UNIPAR "Universidade Paranaense"</p>
