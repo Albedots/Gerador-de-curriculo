@@ -13,7 +13,7 @@
 </pre>
 
 # Protótipo do projeto no Figma
-![Protótipo](/Images/APO-FIGMA_pages-to-jpg-0001.jpg)
+![Protótipo](/img/APO-FIGMA_pages-to-jpg-0001.jpg)
 
 
 # Guia do Usuário
