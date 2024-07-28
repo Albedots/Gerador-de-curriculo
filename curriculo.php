@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!--Essa é a parte php, onde inclui a parte formatada e server/side da pagina com os dados dos campos-->
+
 <head>
     <meta name="Author" content="Gabriel Filipe"> <!--criei essa tag para referenciar a mim (Autor)-->
     <meta charset="UTF-8">
