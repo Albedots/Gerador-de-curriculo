@@ -7,24 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APO</title>
     <link rel="stylesheet" href="style/styleAlt.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> <!--linkei por cdn o jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script><!--linkei por cdn o jquery-->
     <script src="scripts/apo.js"></script>
 </head>
 
 <body>
-    <noscript>Parece que os scripts estão desativados, isso pode ocorrer no mau funcionamento da página</noscript>  <!--tag para mostrar uma mensagem de erro caso script não sejam aceitos pelo browser-->
+    <noscript>Parece que os scripts estão desativados, isso pode ocorrer no mau funcionamento da página</noscript>
+    <!--tag para mostrar uma mensagem de erro caso script não sejam aceitos pelo browser-->
 
-    <form action="curriculo.php" method="post" name="formulario" autocomplete="on" enctype="application/x-www-form-urlencoded">
-        <!--Eu sei que enctype do método post vem o "application/x-www-form-urlencoded" por padrão, porém eu optei por escreve-lo para contextualização-->
-        <fieldset>
+    <main>
+        <form action="curriculo.php" method="post" name="formulario" autocomplete="on" enctype="application/x-www-form-urlencoded">
+            <!--Eu sei que enctype do método post vem o "application/x-www-form-urlencoded" por padrão, porém eu optei por escreve-lo para contextualização-->
             <legend>CURRÍCULO</legend>
 
-            <section id="container">
+            <section id="container"><!--Campos do "Dados pessoais"-->
                 <input id="Nome" name="nome" type="text" maxlength="100" placeholder="Nome completo" required>
 
                 <input type="number" name="idade" id="Idade" placeholder="Idade" required>
 
-                <input id="Endereco" name="endereco" type="text" placeholder="Endereço" maxlength="100" required>           <!--Campos do "Dados pessoais"-->
+                <input id="Endereco" name="endereco" type="text" placeholder="Endereço" maxlength="100" required>
 
                 <input type="email" name="email" id="Email" maxlength="100" placeholder="Email" required>
 
@@ -33,7 +34,7 @@
                 <select name="estadoCivil" id="estadoCivil" required>
                     <option value="" disabled selected>Estado Civil:</option>
                     <option value="Solteiro">Solteiro</option>
-                    <option value="Casado">Casado</option>                  <!--Campo para selecionar o estado civil-->
+                    <option value="Casado">Casado</option> <!--Campo para selecionar o estado civil-->
                     <option value="Separado">Separado</option>
                     <option value="Viuvo">Viúvo</option>
                     <option value="Divorciado">Divorciado</option>
@@ -46,19 +47,20 @@
                     <option value="outro" name="outro">Outro</option>
                 </select>
 
-                <textarea name="objetivos" id="Objetivos" placeholder="Objetivos" cols="60" maxlength="500" required></textarea>        
-                <textarea name="qualidades" id="Qualidades" placeholder="Qualidades" cols="60" maxlength="500" required></textarea>     <!--Campos com nomes para referenciar no php e quantidadem max de char-->
-                <textarea name="experiencias" id="Experiencias" placeholder="Experiências" cols="60" maxlength="500" required></textarea>
-                  
+                <textarea name="objetivos" id="Objetivos" placeholder="Objetivos" cols="60" maxlength="500"required></textarea>
+                <textarea name="qualidades" id="Qualidades" placeholder="Qualidades" cols="60" maxlength="500"required></textarea> <!--Campos com nomes para referenciar no php e quantidadem max de char-->
+                <textarea name="experiencias" id="Experiencias" placeholder="Experiências" cols="60" maxlength="500"required></textarea>
+
             </section>
 
             <section>
                 <button id="btEnviar" type="submit">Enviar</button>
-                <button id="btNovoCampo">+ Criar novo campo</button>
+                <button id="btNovoCampo" type="button">+ Criar novo campo</button>
             </section>
-            
-        </fieldset>
-    </form>
+
+        </form>
+    </main>
 
 </body>
+
 </html>

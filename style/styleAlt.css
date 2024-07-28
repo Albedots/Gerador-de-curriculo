@@ -22,19 +22,13 @@ label{
 }
 
 
-form{
+main{
     background-color:#36393e;
     margin: 150px;
     border-radius: 20px;
     border: none;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-
-
-fieldset{
     text-align: center;
-    border: none;
 }
 
 
@@ -44,6 +38,7 @@ input[type=radio]{
 
 
 button{
+    display: inline;
     padding: 10px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -93,6 +88,7 @@ textarea:focus, select:focus {
 button:hover{
     background-color: rgba(187, 165, 165, 0.1);
     cursor: pointer;
+    border-color: #0078d4;
 }
 
 button:focus{

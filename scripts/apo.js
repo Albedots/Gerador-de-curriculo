@@ -8,14 +8,14 @@ $(document).ready(function(){   //comando iniciado somenta apos a página ser ca
         history.back();             //funçõo para meu botão voltar na aba anterior
     })
 
-
     $("#btNovoCampo").click(function(){                 //função do botão para criar um novo campo de textarea
         var contador = $(".novo-textarea").length + 1;
         var textarea = $("<textarea>", {
             id: "textarea-" + contador,
             class: "novo-textarea",
             placeholder: "texto" + contador,
-            name: "campo_Novo"
+            name: "campo_Novo",
+            cols: "60"
         });
         $("#container").append(textarea);
     })
