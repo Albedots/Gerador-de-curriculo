@@ -1,10 +1,10 @@
 # Gerador de curriculo_
 
-# Introdução
+# *Introdução*
 <p>Projeto criado com conhecimento inicial/básico de cada linguagem, para Atividade de Prática Orientada da UNIPAR "Universidade Paranaense"</p>
 
 
-# Linguagens usadas :
+# *Linguagens usadas* :
 <pre>
 .Jquery
 .Css 
@@ -12,11 +12,11 @@
 .Php
 </pre>
 
-# Protótipo do projeto no Figma
+# *Protótipo do projeto no Figma*
 ![Protótipo](img/APO-FIGMA_pages-to-jpg-0001.jpg)
 
 
-# Guia do Usuário
+# *Guia do Usuário*
 * ## Etapa 1:  
 
   baixe todos os arquivos e em seguida, abra o `index.html`
