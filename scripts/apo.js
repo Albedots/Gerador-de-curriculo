@@ -5,7 +5,7 @@ $(document).ready(function(){   //comando iniciado somenta apos a página ser ca
 
 
     $("#btVoltar").click(function(){
-        history.back();             //funçõo para meu botão voltar na aba anterior
+        history.back();             //função para meu botão voltar na aba anterior
     })
 
     $("#btNovoCampo").click(function(){                 //função do botão para criar um novo campo de textarea

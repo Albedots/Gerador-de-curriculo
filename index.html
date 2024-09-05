@@ -16,7 +16,7 @@
     <!--tag para mostrar uma mensagem de erro caso script não sejam aceitos pelo browser-->
 
     <main>
-        <form action="curriculo.php" method="post" name="formulario" autocomplete="on" enctype="application/x-www-form-urlencoded">
+        <form action="curriculo.php" method="post" name="formulario" autocomplete="on" enctype="multipart/form-data">
             <!--Eu sei que enctype do método post vem o "application/x-www-form-urlencoded" por padrão, porém eu optei por escreve-lo para contextualização-->
             <legend>CURRÍCULO</legend>
 
@@ -52,12 +52,11 @@
                 <textarea name="experiencias" id="Experiencias" placeholder="Experiências" cols="60" maxlength="500"required></textarea>
 
             </section>
-
             <section>
                 <button id="btEnviar" type="submit">Enviar</button>
                 <button id="btNovoCampo" type="button">+ Criar novo campo</button>
             </section>
-
+            <input type="file" id="profileImage" name="profileImage" accept="image/*">
         </form>
     </main>
 
