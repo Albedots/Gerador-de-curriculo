@@ -1,7 +1,7 @@
 # Gerador de curriculo_
 
 # *Introdução*
-<p>Projeto criado com conhecimento inicial/básico de cada linguagem, para Atividade de Prática Orientada da UNIPAR "Universidade Paranaense"</p>
+<p>Projeto criado com conhecimento inicial/básico de cada linguagem, para Atividade de Prática Orientada da universidade</p>
 
 
 # *Linguagens usadas* :
